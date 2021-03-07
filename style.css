@@ -54,7 +54,6 @@ a {
      height: 320px;
      margin: 10px;
      background-image: url(./images/pizza1.1.jpg);
-     background-attachment: fixed;
      background-repeat: no-repeat;
      background-size: cover;
      padding: 40px;
@@ -66,7 +65,7 @@ a {
     width: 120px;
     height: 55px;
     border-radius: 60px;
-    background-color: yellow;
+    background-color: red;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -80,7 +79,7 @@ a {
     .search,.order {
         width: 540px;
         height: 150px;
-        margin:10px;
+        margin:200px;
         background-color:yellow;
     }
     .tools {
@@ -104,4 +103,9 @@ a {
 .newp:nth-child(2) {
     font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.whats-new {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
 }

@@ -45,3 +45,24 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+.cart a {
+    color: white;
+    margin: 0px 10px;
+}
+.new {
+     width: 540px;
+     height: 320px;
+     margin: 10px;
+     background-image: url(./images/pizza1.1.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.new p {
+    color:white;
+    line-height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}

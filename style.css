@@ -57,12 +57,51 @@ a {
      background-attachment: fixed;
      background-repeat: no-repeat;
      background-size: cover;
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 }
+.new button{
+    width: 120px;
+    height: 55px;
+    border-radius: 60px;
+    background-color: yellow;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: none;
+    box-shadow: 2px 2px 12px;
+    outline: none;
+}
+
+    .search,.order {
+        width: 540px;
+        height: 150px;
+        margin:10px;
+        background-color:yellow;
+    }
+    .tools {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 .new p {
     color:white;
     line-height: 50px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     padding: 0px;
     margin: 0px;
+}
+.new p:nth-child(1) {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.newp:nth-child(2) {
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }

@@ -22,4 +22,26 @@ a {
 }
 .navigation-content {
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 12%;
+}
+.cart img {
+    height: 30px;
+}
+.menu ul {
+    display: flex;
+}
+  .menu ul li a{
+      padding: 0px 30px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      color: white;
+  }   
+.cart {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }

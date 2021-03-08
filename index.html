@@ -77,6 +77,8 @@
                   <option value="Chicken Tikka">Chicken Tikka</option>
                   <option value="PeriPeri Pizza">PeriPeri Pizza</option>
                   <option value="Hawaian Pizza">Hawaian Pizza</option>
+                  <option value="Veggie Tikka Pizza">Veggie Tikka Pizza</option>
+                  <option value="BBQ">BBQ Pizza</option>
                 </select>
               <label for="select">Select Size</label>
               <select class="browser-default custom-select custom-select-md mb-3" id="size">
@@ -95,15 +97,24 @@
               <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
                 <div class="custom-control custom-checkbox custom-control-inline">
                   <input type="checkbox" class="custom-control-input" id="Cheese" value="Cheese" name="toppings">
-                  <label class="custom-control-label" for="Sausage">Cheese</label>
+                  <label class="custom-control-label" for="Cheese">Cheese</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
                   <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
                   <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                 </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Pineapples" value="Pineapples" name="toppings">
+                  <label class="custom-control-label" for="Pineapples">Pineapples</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                  <label class="custom-control-label" for="Bacon">Bacon</label>
+                </div>
                 <br><br>
               <button type="submit" class="btn btn-orange proceed">Proceed</button>
-              
+              <label for="number">Number of Pizza</label>
+              <input type="number" class="form-control" id="number" placeholder="No of Pizza" required>
             </form>
           </div>
             <div class="choice">
@@ -134,19 +145,10 @@
                 <p id="addedprice">Delivery will cost sh. 150</p>
                 <p id="finallmessage"></p>
               </div>
-              <button class="btn btn-orange addPizza">Add Pizza</button>
-              <button class="btn btn-orange" id="checkout">Checkout</button>
-              <button class="btn btn-orange deliver">Home delivery?</button>
+              <button class="btn btn-blue addPizza">Add Pizza</button>
+              <button class="btn btn-blue" id="checkout">Checkout</button>
+              <button class="btn btn-blue deliver">Home delivery?</button>
             </div>
-            <div class="delivery">
-                <form action="">
-                  <div class="form-group">
-                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                    <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
-                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                    <button class="btn btn-orange" id="final-order">Place Order</button>
-                  </div>
-                </form>
             </div>
           </div>
       </div>

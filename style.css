@@ -148,18 +148,19 @@ button:active {
     }
 .new p {
     color:white;
-    line-height: 50px;
+    line-height: 70px;
     font-weight: bold;
     padding: 0px;
     margin: 0px;
 }
 .new p:nth-child(1) {
-    font-size: 40px;
+    font-size: 80px;
     font-family: sans-serif;
     font-weight: bold;
+    font-style: italic;
 }
-.newp:nth-child(2) {
-    font-size: 30px;
+.new p:nth-child(2) {
+    font-size: 60px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .whats-new {
@@ -191,13 +192,16 @@ color: red;
     display: flex;
 }
 .pizza1 p,.pizza2 p,.pizza3,.pizza4 {
-    font-size: 30px;
-    color: rosybrown;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 10px;
+    font-size: 15px;
+    text-align:justify;
+    color: white;
+    font-style:normal;
+    font-weight: bolder;
 }
 .second-row {
   display:flex;
+  text-align-last: center;
+  
 }
 .pizza1 {
     background-image: url(./images/bg.jpg);
@@ -221,4 +225,10 @@ color: red;
 }
 .order-overlay {
     background-color:brown;
+}
+.what {
+    font-size: 40px;
+    text-align: center;
+   background-color: white;
+   text-shadow: 10px;
 }

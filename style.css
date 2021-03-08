@@ -171,7 +171,7 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    line-height: 50px;
 }
 .order a{ 
     font-size: 40px;
